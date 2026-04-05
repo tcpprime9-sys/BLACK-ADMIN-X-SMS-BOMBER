@@ -5,7 +5,7 @@ Ultimate SMS Bomber - Simple 3 API Edition (Slow & Controlled)
 Only 3 APIs: BTCL MyBTCL, BTCL PhoneBill, Bioscope Plus
 Each API sends 5 requests one by one with + phone format
 Termux Compatible & Anti-Reverse Engineering
-Created by: Ax Romjan  
+Created by: BLACK ADMIN  
 """
 
 import base64
@@ -45,7 +45,7 @@ def _sig_handler_1(signum, frame):
     print(f"\n\n{_c['r']}🛑 BOMBING STOPPED BY USER!{_c['e']}")
     print(f"{_c['y']}💀 Total requests: {_state['total']}{_c['e']}")
     print(f"{_c['g']}✅ Successful: {_state['success']}{_c['e']}")
-    print(f"{_c['p']}🔥 Created by: Samrat Muhammad Rubel From Tech By Rubel and Pro Tips🔥{_c['e']}")
+    print(f"{_c['p']}🔥 Created by: BLACK ADMIN{_c['e']}")
     sys.exit(0)
 
 def _sig_handler_2(signum, frame):
@@ -123,7 +123,7 @@ def _print_banner():
         f"{_c['y']}└─ System:    {_c['w']}{device_info['system']} {device_info['release']}{_c['e']}",
         f"\n{_c['c']}{'=' * 80}",
         f"{_c['g']}CTRL+C: Stop  {_c['y']}CTRL+Z: Pause/Resume{_c['c']}",
-        f"{_c['p']}Created by: {_c['w']}@minhaz_vai{_c['c']}",
+        f"{_c['p']}Created by: {_c['w']}BLACK ADMIN{_c['c']}",
         f"{'=' * 80}{_c['e']}"
     ]
     
